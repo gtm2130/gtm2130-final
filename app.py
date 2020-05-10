@@ -16,12 +16,12 @@ app = Flask(__name__)
 def hello():
     return render_template("index.html")
 
-@app.route("/assignments")
-def assignments():
+@app.route("/colors")
+def colors():
     return render_template("index2.html")
 
-@app.route("/classes")
-def classes():
+@app.route("/animals")
+def animals():
     return render_template("index3.html")
 
 
